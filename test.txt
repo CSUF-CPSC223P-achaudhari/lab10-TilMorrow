@@ -1,0 +1,32 @@
+
+
+
+
+
+== CPython 3.10.6 (main, Nov 14 2022, 16:10:14) [GCC 11.3.0]
+== Linux-5.19.0-35-generic-x86_64-with-glibc2.35 little-endian
+== cwd: /tmp/test_python_8900æ
+== CPU count: 2
+== encodings: locale=UTF-8, FS=utf-8
+0:00:00 load avg: 0.73 Run tests sequentially
+0:00:00 load avg: 0.73 [ 1/10] test_grammar
+0:00:00 load avg: 0.73 [ 2/10/1] test_opcodes -- test_grammar failed (uncaught exception)
+0:00:00 load avg: 0.73 [ 3/10/2] test_dict -- test_opcodes failed (uncaught exception)
+0:00:00 load avg: 0.73 [ 4/10/3] test_builtin -- test_dict failed (uncaught exception)
+0:00:00 load avg: 0.73 [ 5/10/4] test_exceptions -- test_builtin failed (uncaught exception)
+0:00:00 load avg: 0.73 [ 6/10/5] test_types -- test_exceptions failed (uncaught exception)
+0:00:00 load avg: 0.73 [ 7/10/6] test_unittest -- test_types failed (uncaught exception)
+0:00:00 load avg: 0.73 [ 8/10/7] test_doctest -- test_unittest failed (uncaught exception)
+0:00:00 load avg: 0.73 [ 9/10/8] test_doctest2 -- test_doctest failed (uncaught exception)
+0:00:00 load avg: 0.73 [10/10/9] test_support -- test_doctest2 failed (uncaught exception)
+
+== Tests result: FAILURE ==
+
+1 test OK.
+
+9 tests failed:
+    test_builtin test_dict test_doctest test_doctest2 test_exceptions
+    test_grammar test_opcodes test_types test_unittest
+
+Total duration: 2.9 sec
+Tests result: FAILURE
